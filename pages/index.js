@@ -1,6 +1,8 @@
+import styles from './HomePage.module.css'
 function HomePage() {
     return (
-    <div className="cta">
+    <div className={styles.cta}>
+        <div className={styles.header}>Home Header</div>
         <span>
             Sample Image 1
         </span>
