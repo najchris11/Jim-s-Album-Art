@@ -1,10 +1,6 @@
 function HomePage() {
-    const ctaStyles = {
-        display: 'flex',
-        justifyContent: 'space-around'
-    }
     return (
-    <div style={ctaStyles}>
+    <div className="cta">
         <span>
             Sample Image 1
         </span>
