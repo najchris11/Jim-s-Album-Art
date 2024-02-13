@@ -1,4 +1,4 @@
-import './global.css'
+import './globals.scss'
 
 //Not required, but each top level page is passed in like this
 //Could also load global css styles

@@ -1,4 +1,4 @@
-import styles from './HomePage.module.css'
+import styles from './HomePage.module.scss'
 function HomePage() {
     return (
     <div className={styles.cta}>
@@ -16,7 +16,7 @@ function HomePage() {
             <div>
                 <div>on <em>Custom</em> Album Designs</div>
             </div>
-            <button>Shop Now</button>
+            <button class='cta'>Shop Now</button>
         </div>
         <span>
             Sample Image 3
